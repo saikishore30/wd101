@@ -1,0 +1,30 @@
+table {
+    margin-top: 40px;
+    border-collapse: collapse;
+    width: 80%; /* Reduce the width for a more centered appearance */
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #fff; /* Set a white background for the table */
+    border-radius: 10px; /* Add more border-radius for rounded corners */
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2); /* Add a subtle box-shadow for depth */
+}
+
+th, td {
+    border: 1px solid #ddd; /* Change border color for a softer look */
+    padding: 12px;
+    text-align: center;
+}
+
+th {
+    background-color: #007bff;
+    color: #ffffff;
+}
+
+td {
+    background-color: #f8f8f8; /* Alternate background color for better readability */
+}
+
+/* Add hover effect to table rows */
+tr:hover {
+    background-color: #f5f5f5;
+}
